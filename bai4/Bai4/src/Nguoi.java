@@ -2,9 +2,9 @@ public class Nguoi {
     private String ten;
     private int tuoi;
     private String ngheNghiep;
-    private int soCMND;
+    private String soCMND;
 
-    public Nguoi(String ten, int tuoi, String ngheNghiep, int soCMND) {
+    public Nguoi(String ten, int tuoi, String ngheNghiep, String soCMND) {
         this.ten = ten;
         this.tuoi = tuoi;
         this.ngheNghiep = ngheNghiep;
@@ -38,11 +38,11 @@ public class Nguoi {
         this.ngheNghiep = ngheNghiep;
     }
 
-    public int getSoCMND() {
+    public String getSoCMND() {
         return soCMND;
     }
 
-    public void setSoCMND(int soCMND) {
+    public void setSoCMND(String soCMND) {
         this.soCMND = soCMND;
     }
 
